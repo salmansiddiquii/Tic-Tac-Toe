@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(243, 243, 201);
+    text-align: center;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.game {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    width: 60vmin;
+    background-color: rgb(243, 243, 201);
+
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    /* box-shadow: 0 0 1rem rgb(0, 0, 0, 0.3); */
+    box-shadow: 2px 2px 5px rgb(107, 101, 106);
+    font-size: 8vmin;
+    background-color: #ffffc7;
+    color: #423E28;
+
+}
+
+#reset {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1rem;
+    font-weight: 700;
+    font-size: 1.25rem;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 2px 2px 2px rgb(32, 32, 32);
+    background-color: #423E28;
+    color: #fff;
+}
+
+#newGame {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1rem;
+    font-weight: 700;
+    font-size: 1.25rem;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 2px 2px 2px rgb(32, 32, 32);
+    background-color: #423E28;
+    color: #fff;
+}
+
+
+#msg {
+    color: #202020;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 5vmin;
+}
+
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide {
+    display: none;
+}
+
+footer {
+    position: relative;
+    top: 33vmin;
+    font-family: Sans serif, Arial, orVerdana;
+}
+
+@media (max-width: 600px) {
+
+    .game {
+
+        gap: 2vmin;
+        width: 80vmin;
+
+    }
+
+    .box {
+        height: 25vmin;
+        width: 25vmin;
+        font-size: 15vmin;
+    }
+
+    #msg {
+        color: #202020;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 10vmin;
+    }
+
+    .msg-container {
+        height: 100vh;
+    }
+
+
+
+}
