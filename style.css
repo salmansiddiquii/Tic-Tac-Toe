@@ -9,7 +9,9 @@ body {
 }
 
 h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #202020;
+    font-family: Snell Roundhand, cursive;
+    text-shadow: 2px 2px #474444;
 }
 
 .container {
