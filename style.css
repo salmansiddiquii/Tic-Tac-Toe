@@ -10,8 +10,8 @@ body {
 
 h1 {
     color: #202020;
-    font-family: Snell Roundhand, cursive;
-    text-shadow: 2px 2px #474444;
+    font-family: monospace;
+
 }
 
 .container {
@@ -58,6 +58,12 @@ h1 {
     color: #fff;
 }
 
+#reset:hover {
+    background-color: #686450;
+    padding: 0.9rem;
+
+}
+
 #newGame {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 1rem;
@@ -68,6 +74,12 @@ h1 {
     box-shadow: 2px 2px 2px rgb(32, 32, 32);
     background-color: #423E28;
     color: #fff;
+}
+
+#newGame:hover {
+    background-color: #686450;
+    padding: 0.9rem;
+
 }
 
 
